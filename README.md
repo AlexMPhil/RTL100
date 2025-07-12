@@ -1,2 +1,4 @@
 # RTL100
-attempt 100 days of RTL
+This repo is for the codes during my attempt of '100 days of RTL'
+
+Day 1 - Day X => Combinational Circuits
