@@ -10,8 +10,8 @@ module Comparator_4b(
     
     always @(*) begin
         LT = (A < B);
-        EQ = (A = B);
-        GT = (A > b);
+        EQ = (A == B);
+        GT = (A > B);
     end
     
 endmodule
