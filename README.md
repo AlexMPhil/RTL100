@@ -1,4 +1,4 @@
 # RTL100
 This repo is for the codes during my attempt of '100 days of RTL'
 
-Day 1 - Day X => Combinational Circuits
+Day 1 - Day 11 => Combinational Circuits [From AND gate to simple basic ALU (and,or,xor,+,-)
