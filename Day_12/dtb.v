@@ -13,7 +13,7 @@ module dtb();
     
     initial begin
         #10 D=0;
-        #10 D=11;
+        #10 D=1;
         #10 D=0;
         #10; $finish;
      end
