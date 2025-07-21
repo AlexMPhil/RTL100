@@ -10,15 +10,7 @@ module jkff(
     
     always @(posedge CLK) begin
     
-        if (K==1) begin
-            Q<=0;
-            Qbar<=1;
-        end
-        else if (J==1) begin
-            Q<=1;
-            Qbar<=0;
-        end
-        else if (J==0 && K==0) begin
+        if (J==0 && K==0) begin
             Q<=Q;
             Qbar<=Qbar;
         end
@@ -26,6 +18,15 @@ module jkff(
             Q<=~Q;
             Qbar<=Q;
         end
+        else if (K==1) begin
+            Q<=0;
+            Qbar<=1;
+        end
+        else if (J==1) begin
+            Q<=1;
+            Qbar<=0;
+        end
+
         else begin
             Q<=Q;
             Qbar<=Qbar;
